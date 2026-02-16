@@ -23,7 +23,7 @@ while True:
         Actions.Loan()
     elif Way == "5":
         Actions.Check_Balance()
-    elif Way == "Exit":
+    elif Way in ("Exit" , "6"):
         Actions.Exit()
         break
     else:

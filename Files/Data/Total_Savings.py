@@ -1,4 +1,3 @@
-# Customise According To Your Need , [Title , Live_Balance , Split_Precentage]
 Data = [
 
 	["Invest       " , 0 , 5],
