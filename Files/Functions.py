@@ -80,13 +80,13 @@ def Add_To_Savings(Type , Profit):
                 Profit = float(Profit)
                 Profit = round(Profit , 2)
                 Savings[i].pop(1)
-                Savings[i].insert(1 , Prev_Amount + Profit)
+                Savings[i].insert(1 , round(Prev_Amount + Profit , 2))
                 Extra_Decimal += Extra
             else:
                 Profit = (Profit / 100) * Savings[i][2]
                 Profit = round(Profit , 2)
                 Savings[i].pop(1)
-                Savings[i].insert(1 , Prev_Amount + Profit)
+                Savings[i].insert(1 , round(Prev_Amount + Profit , 2))
 
 # Automatecally Add Profit According To % Given
 def Auto_Add_To_Savings(Profit):
