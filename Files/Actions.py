@@ -30,8 +30,8 @@ def Spent():
     if Spent_Category >= 1 and Spent_Category <= len(Functions.Titles):
         
         Index = Spent_Category - 1
-        Prev_Amount = float(Savings[Index][1])
-        Savings[Index][1] = Prev_Amount - Spent_Amount
+        Prev_Amount = round(float(Savings[Index][1]) , 2)
+        Savings[Index][1] = round(Prev_Amount - Spent_Amount , 2)
     else:
         print("Enter A Valid Number...")
 

@@ -1,7 +1,9 @@
 try:
     from Files.Data import Total_Savings
+    from Files import Animations
 except ImportError:
     from Data import Total_Savings
+    import Animations
 
 Savings = Total_Savings.Data
 
@@ -33,10 +35,10 @@ def Net_Worth():
 def Print_Savings_Proper_Style():
     Space_Pos = 0
 
-    print("\n" + "=" * 10 , " Net Worth " , "=" * 10 , "\n")
+    print("\n" + Animations.Equals_To_Line(10) , " Net Worth " , Animations.Equals_To_Line(10) , "\n")
     print(f"Your Net Worth ---> ₹" , Net_Worth() , "\n")
 
-    print("=" * 10 , " Savings " , "=" * 10 , "\n")        
+    print(Animations.Equals_To_Line(10) , " Savings " , Animations.Equals_To_Line(10) , "\n")        
     for i in  range(len(Savings)):
         Space_Pos += 1
         if Space_Pos in Pos:

@@ -1,18 +1,19 @@
 Data = [
 
-	["Invest       " , 0 , 5],
-	["RePay        " , 0 , 30],
+	["Invest       " , 80.11 , 5],
+	["RePay        " , 9.53 , 30],
 
-	["Crypto       " , 0 , 10],
-	["eGold        " , 0 , 5],
-	["P2P Lending  " , 0 , 5],
-	["Inidan_Stocks" , 0 , 5],
-	["US_Stocks    " , 0 , 5],
-	["FD           " , 0 , 5],
-	["Mutual_Funds " , 0 , 5],
+	["Crypto       " , 3.12 , 10],
+	["eGold        " , 1.55 , 5],
+	["P2P Lending  " , 1.55 , 5],
+	["Inidan_Stocks" , 1.55 , 5],
+	["US_Stocks    " , 1.55 , 5],
+	["FD           " , 1.55 , 5],
+	["Mutual_Funds " , 1.55 , 5],
 
-	["Products     " , 0 , 10],
-	["Projects     " , 0 , 10],
-	["Personal     " , 0 , 5],
+	["Products     " , 3.12 , 10],
+	["Projects     " , 3.12 , 10],
+	["Personal     " , 1.55 , 5],
+
 
 ]
