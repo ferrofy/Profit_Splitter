@@ -32,8 +32,6 @@ def Spent():
         Index = Spent_Category - 1
         Prev_Amount = float(Savings[Index][1])
         Savings[Index][1] = Prev_Amount - Spent_Amount
-        
-        Functions.Write_To_Savings()
     else:
         print("Enter A Valid Number...")
 
